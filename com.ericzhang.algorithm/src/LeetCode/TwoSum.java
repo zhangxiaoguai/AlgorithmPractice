@@ -1,4 +1,4 @@
-package com.company.LeetCode;
+package com.ericzhang.algorithm.LeetCode;
 
 import java.util.HashMap;
 import java.util.Map;

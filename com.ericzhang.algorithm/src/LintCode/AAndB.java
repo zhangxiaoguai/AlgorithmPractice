@@ -1,4 +1,4 @@
-package com.company.LintCode;
+package com.ericzhang.algorithm.LintCode;
 
 public class AAndB {
 
