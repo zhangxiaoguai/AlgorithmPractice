@@ -3,6 +3,10 @@ package com.ericzhang.algorithm.LeetCode;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author EricZhang
+ * @email ericzhangisworking@gmail.com
+ */
 public class TwoSum {
 
     /**

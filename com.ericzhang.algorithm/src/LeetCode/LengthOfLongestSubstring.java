@@ -5,6 +5,10 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * @author EricZhang
+ * @email ericzhangisworking@gmail.com
+ */
 public class LengthOfLongestSubstring {
 
     /**
@@ -39,9 +43,9 @@ public class LengthOfLongestSubstring {
         int length = 0;
         out:
         for (int i = 0; i < target.length(); i++) {
-            tempResult.setLength(0);// 内部用的是copy数组的方式
+            tempResult.setLength(0);// 内部用的是 Arrays.copyOf 的方式
             char currentStr = target.charAt(i);
-            tempResult.append(currentStr);// 内部用的也是copy数组的方式
+            tempResult.append(currentStr);// 内部用的是 Arrays.copyOf 的方式
             if (length < tempResult.length()) {
                 length = tempResult.length();
             }

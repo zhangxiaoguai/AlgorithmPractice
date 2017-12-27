@@ -1,5 +1,9 @@
 package com.ericzhang.algorithm.LintCode;
 
+/**
+ * @author EricZhang
+ * @email ericzhangisworking@gmail.com
+ */
 public class AAndB {
 
     /**

@@ -1,5 +1,9 @@
 package com.ericzhang.algorithm.LeetCode;
 
+/**
+ * @author EricZhang
+ * @email ericzhangisworking@gmail.com
+ */
 public class AddTwoNumbers {
 
     /**
