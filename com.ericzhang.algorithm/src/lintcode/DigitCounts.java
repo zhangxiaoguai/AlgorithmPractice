@@ -1,4 +1,4 @@
-package LintCode;
+package lintcode;
 
 /**
  * @author EricZhang

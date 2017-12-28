@@ -1,6 +1,6 @@
 # AlgorithmPractice
 
-## LeetCode
+## leetcode
 
 1.TwoSum;
 
@@ -8,7 +8,7 @@
 
 3.LengthOfLongestSubstring;
 
-## LintCode
+## lintcode
 
 1.AAndB;
 
