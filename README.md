@@ -16,5 +16,11 @@
 
 3.DigitCount;
 
+## Other
+
+1.ReverseSingleLinkedList;
+
+
+
 
 
