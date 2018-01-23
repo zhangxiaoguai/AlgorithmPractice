@@ -1,6 +1,6 @@
 # AlgorithmPractice
 
-## leetcode
+## LeetCode
 
 1.TwoSum;
 
@@ -8,7 +8,9 @@
 
 3.LengthOfLongestSubstring;
 
-## lintcode
+206.转单链表
+
+## LintCode
 
 1.AAndB;
 

@@ -1,4 +1,4 @@
-package com.ericzhang.algorithm.LintCode;
+package lintcode;
 
 /**
  * @author EricZhang

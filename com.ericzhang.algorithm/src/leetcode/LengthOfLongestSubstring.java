@@ -1,4 +1,4 @@
-package com.ericzhang.algorithm.LeetCode;
+package leetcode;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -21,18 +21,19 @@ public class LengthOfLongestSubstring {
      */
 
     public static void main(String[] args) {
-        int target;
-        target = lengthOfLongestSubstring_1("pwwkew");
-        System.out.println(target);
+        int result;
+        String target = "pwwkew";
+        result = lengthOfLongestSubstring_1(target);
+        System.out.println(result);
 
-        target = lengthOfLongestSubstring_2("pwwkew");
-        System.out.println(target);
+        result = lengthOfLongestSubstring_2(target);
+        System.out.println(result);
 
-        target = lengthOfLongestSubstring_3("pwwkew");
-        System.out.println(target);
+        result = lengthOfLongestSubstring_3(target);
+        System.out.println(result);
 
-        target = lengthOfLongestSubstring_4("pwwkew");
-        System.out.println(target);
+        result = lengthOfLongestSubstring_4(target);
+        System.out.println(result);
     }
 
     /**

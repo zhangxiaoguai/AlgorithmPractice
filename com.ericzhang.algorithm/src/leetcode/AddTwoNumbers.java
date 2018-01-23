@@ -1,4 +1,4 @@
-package com.ericzhang.algorithm.LeetCode;
+package leetcode;
 
 /**
  * @author EricZhang

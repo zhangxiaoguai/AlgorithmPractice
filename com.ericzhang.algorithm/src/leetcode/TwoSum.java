@@ -1,4 +1,4 @@
-package com.ericzhang.algorithm.LeetCode;
+package leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -69,7 +69,7 @@ public class TwoSum {
      */
     public static int[] twoSum_1(int[] example, int target) {
         for (int i = 0; i < example.length; i++) {
-            for (int j = 1; j < example.length; j++) {
+            for (int j = i + 1; j < example.length; j++) {
                 if (example[j] == target - example[i]) {
                     return new int[]{i, j};
                 }
