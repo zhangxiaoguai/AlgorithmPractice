@@ -8,7 +8,7 @@
 
 3.LengthOfLongestSubstring;
 
-206.转单链表
+206.ReverseLinkedList;
 
 ## LintCode
 
@@ -17,12 +17,4 @@
 2.TrailingZeros;
 
 3.DigitCount;
-
-## Other
-
-1.ReverseSingleLinkedList;
-
-
-
-
 
