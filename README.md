@@ -8,6 +8,8 @@
 
 3.LengthOfLongestSubstring;
 
+4.MedianOfTwoSortedArrays;
+
 206.ReverseLinkedList;
 
 ## LintCode
@@ -17,4 +19,5 @@
 2.TrailingZeros;
 
 3.DigitCount;
+
 
