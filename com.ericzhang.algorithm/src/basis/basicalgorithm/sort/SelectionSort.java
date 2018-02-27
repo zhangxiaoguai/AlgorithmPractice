@@ -1,4 +1,4 @@
-package basis.basicalgorithm;
+package basis.basicalgorithm.sort;
 
 import leetcode.TwoSum;
 
@@ -21,32 +21,33 @@ public class SelectionSort {
         int[] b = {67, 24, 58};
         int[] example = {2, 4, 6, 8, 10, 12, 14, 16, 18, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30};
 
-        selectionSort(a);
+        selectionSortMinToMax(a);
         TwoSum.println("a", a);
-        selectionSort(b);
+        selectionSortMinToMax(b);
         TwoSum.println("b", b);
-        selectionSort(example);
+        selectionSortMinToMax(example);
         TwoSum.println("example", example);
 
         a = new int[]{14, 3, 35, 63, 12};
         b = new int[]{67, 24, 58};
         example = new int[]{2, 4, 6, 8, 10, 12, 14, 16, 18, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30};
 
-        selectionSort2(a);
+        selectionSortMaxToMin(a);
         TwoSum.println("a", a);
-        selectionSort2(b);
+        selectionSortMaxToMin(b);
         TwoSum.println("b", b);
-        selectionSort2(example);
+        selectionSortMaxToMin(example);
         TwoSum.println("example", example);
     }
 
-    public static void selectionSort(int[] target) {
+    public static void selectionSortMinToMax(int[] target) {
         for (int i = 0; i < target.length; i++) {
             int min = i;
             for (int j = i + 1; j < target.length; j++) {
                 if (target[min] > target[j]) {
                     min = j;
                 }
+                // 每次查找到末尾并且最小值不是当前值时才开始交换位置，省去中间的交换过程
                 if (j == (target.length - 1) && min != i) {
                     int temp = target[i];
                     target[i] = target[min];
@@ -56,13 +57,14 @@ public class SelectionSort {
         }
     }
 
-    public static void selectionSort2(int[] numbers) {
+    public static void selectionSortMaxToMin(int[] numbers) {
         for (int i = 0; i < numbers.length; i++) {
             int max = i;
             for (int j = i + 1; j < numbers.length; j++) {
                 if (numbers[max] < numbers[j]) {
                     max = j;
                 }
+                // 每次查找到末尾并且最小值不是当前值时才开始交换位置，省去中间的交换过程
                 if (j == (numbers.length - 1) && max != i) {
                     int temp = numbers[i];
                     numbers[i] = numbers[max];
