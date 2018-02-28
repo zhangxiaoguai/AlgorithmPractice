@@ -51,24 +51,19 @@ public class QuickSort {
 
     public static int partition(int[] arr, int left, int right) {
         int pivotKey = arr[left];
-        int pivotPointer = left;
         while (left < right) {
             while (left < right && arr[right] >= pivotKey)
                 right--;
+            // 把小的移动到左边
+            arr[left] = arr[right];
             while (left < right && arr[left] <= pivotKey)
                 left++;
-            // 把大的交换到右边，把小的交换到左边。
-            swap(arr, left, right);
+            // 把大的移动到右边
+            arr[right] = arr[left];
         }
         // 最后把pivot交换到中间
-        swap(arr, pivotPointer, left);
+        arr[left] = pivotKey;
         return left;
-    }
-
-    public static void swap(int[] arr, int left, int right) {
-        int temp = arr[left];
-        arr[left] = arr[right];
-        arr[right] = temp;
     }
 
 }
