@@ -1,8 +1,12 @@
 # AlgorithmPractice
 
-## Basis 
+[TOC]
 
-### algorithm
+## 算法第四版
+
+## 基础算法 
+
+### 排序
 
 冒泡排序
 
@@ -11,9 +15,6 @@
 插入排序
 
 快速排序
-
-### data structure
-
 
 ## LeetCode
 

@@ -69,9 +69,8 @@ public class ReverseLinkedList {
         if (currentNode == null || currentNode.next == null)
             return currentNode;
         ListNode resultNode = recursiveReverse2(currentNode.next);
-        ListNode next = currentNode.next;
+        currentNode.next.next = currentNode;
         currentNode.next = null;
-        next.next = currentNode;
         return resultNode;
     }
 
